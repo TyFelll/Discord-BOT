@@ -4,7 +4,7 @@ import discord
 from discord.ext import commands
 # On importe les modules principaux
 
-client = commands.Bot(command_prefix = "*") # Remplacer '*' par ce que vous voulez
+client = commands.Bot(command_prefix = "*") # Remplacer '*' par ce que vous voulez | Ce sera le(s) caractère(s) nécessaire avant toutes commandes
 
 @client.event() # C'est un des décorators qui vous permet de activer une fonction
 async def on_ready():
