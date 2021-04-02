@@ -52,3 +52,4 @@ async def beg(ctx):
 
 
 # Link : https://www.youtube.com/watch?v=7hJwNAMOP0k
+client.run('TOKEN')
