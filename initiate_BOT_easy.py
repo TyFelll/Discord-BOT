@@ -25,5 +25,5 @@ client.run('TOKEN')
 # Oublier pas de modifier votre TOKEN par celui de votre bot | Le TOKEN est le code secret de votre bot
 
 
-# Link : https://discord.com/developers/docs/intro
+# Discord Link : https://discord.com/developers/docs/intro
 # Author : Fell#1679 | Add me one discord for help, I'm Free and Cool
