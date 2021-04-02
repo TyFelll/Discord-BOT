@@ -4,7 +4,10 @@ import discord
 from discord.ext import commands
 # On importe les modules principaux
 
-client = commands.Bot(command_prefix = "*") # Remplacer '*' par ce que vous voulez | Ce sera le(s) caractère(s) nécessaire avant toutes commandes
+
+client = commands.Bot(command_prefix = "*")
+# Remplacer '*' par ce que vous voulez | Ce sera le(s) caractère(s) nécessaire avant toutes commandes
+
 
 @client.event() # C'est un des décorators qui vous permet de activer une fonction
 async def on_ready():
@@ -17,7 +20,10 @@ async def on_ready():
 	# Vous pouvez aussi modifier le 'watching' par playing/streaming/listening
 	# Le name= 'Netflix', est modifiable a votre guise
 
-client.run('TOKEN') # Oublier pas de modifier votre TOKEN par celui de votre bot | Le TOKEN est le code secret de votre bot
+
+client.run('TOKEN')
+# Oublier pas de modifier votre TOKEN par celui de votre bot | Le TOKEN est le code secret de votre bot
+
 
 # Link : https://discord.com/developers/docs/intro
 # Author : Fell#1679 | Add me one discord for help, I'm Free and Cool
