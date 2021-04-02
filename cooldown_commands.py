@@ -24,7 +24,7 @@ async def on_command_error(ctx, error):
 # Example 1 :
 
 @client.command()
-async def cooldowntest(ctx):
+async def cooldowntest1(ctx):
 	await ctx.send('I have no cooldown. Which means i can be spammed!')
 
 # That is your current command
@@ -33,7 +33,7 @@ async def cooldowntest(ctx):
 @bot.command()
 @commands.cooldown(1, 10, commands.Bucket.user)  # I have a cooldown of 10 seconds. Per user.
 # You can replace user with guild/member/default
-async def cooldowntest(ctx):
+async def cooldowntest2(ctx):
 	await ctx.send('I have a cooldown. Which means i cant be spammed!')
 
 # To increase or decrease your cooldown just simple change the numbers 1, 10.
