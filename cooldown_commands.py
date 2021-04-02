@@ -1,3 +1,5 @@
+# Comment créé un cooldown pour n'importe quel commande | Level : Hard
+
 import discord
 from discord.ext import commands
 
@@ -11,7 +13,7 @@ client = commands.Bot(command_prefix='?')
 """
 
 
-@client.event # WITH NO ()
+@client.event # WARNING | WITH NO ()
 async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandOnCooldown): #checks if on cooldown
         msg = '**Still on cooldown**, please try again in {:.2f}s'.format(error.retry_after) #says the time
@@ -51,5 +53,8 @@ async def beg(ctx):
 	await ctx.send("Someone gave you 10 coins")
 
 
-# Link : https://www.youtube.com/watch?v=7hJwNAMOP0k
 client.run('TOKEN')
+
+# Video Version Tuto : https://www.youtube.com/watch?v=7hJwNAMOP0k
+# Discord Link : https://discord.com/developers/docs/intro
+# Author : Fell#1679 | Add me one discord for help, I'm Free and Cool
