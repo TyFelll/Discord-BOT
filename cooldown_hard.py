@@ -32,7 +32,7 @@ async def cooldowntest1(ctx):
 # That is your current command
 # Lets change it now.
 
-@bot.command()
+@client.command()
 @commands.cooldown(1, 10, commands.Bucket.user)  # I have a cooldown of 10 seconds. Per user.
 # You can replace user with guild/member/default
 async def cooldowntest2(ctx):
