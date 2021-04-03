@@ -14,7 +14,7 @@ async def displayembed():
 	"""
 	embed = discord.Embed(
 		title = 'Title', # On ajoute le titre
-		description = 'THis is a description.', # Une description
+		description = 'This is a description.', # Une description
 		colour = discord.Colour.blue() # la couleur de l'intéfration qui sera afficher sur la partie verticale gauche
 	)
 
