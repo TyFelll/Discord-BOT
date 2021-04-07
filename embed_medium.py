@@ -27,11 +27,11 @@ async def displayembed():
 	# Vous pouvez ajouter le auteur de l'intégration, elle n'est pas non plus obligatoire
 	icon_url='Image')
 	# Vous permet d'ajouter une petite image en tant que icon, même chose que 'embed.set_image', ajouter juste un URL
-	embed.add_field(name='Field Name', value'Field Value', inline=False)
+	embed.add_field(name='Field Name', value='Field Value', inline=False)
 	# Un champ de texte, les valeur entre '' peuvent être modifier à votre guise
-	embed.add_field(name='Field Name', value'Field Value', inline=True)
+	embed.add_field(name='Field Name', value='Field Value', inline=True)
 	# En revanche le 'inline=' permet de savoir si vous voulez que les champ soit aligner
-	embed.add_field(name='Field Name', value'Field Value', inline=True)
+	embed.add_field(name='Field Name', value='Field Value', inline=True)
 
 	await ctx.send(embed=embed) # Puis la commande pour afficher le tous
 
